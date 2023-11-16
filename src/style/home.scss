@@ -1,0 +1,21 @@
+.navigation {
+    background: rgb(128, 128, 128);
+    width: 100%;
+    // padding-top: 5px;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 15px;
+}
+.logosteam {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.navigation ul li {
+    text-decoration: none;
+}
