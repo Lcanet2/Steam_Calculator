@@ -1,5 +1,5 @@
 .navigation {
-    background: rgb(128, 128, 128);
+    background: rgb(255 122 127 / .2);
     width: 100%;
     // padding-top: 5px;
 }
@@ -19,3 +19,20 @@
 .navigation ul li {
     text-decoration: none;
 }
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centrage horizontal du texte */
+    height: 100vh; /* Hauteur égale à la hauteur de la fenêtre */
+  }
+  
+  .text-container h1,
+  .text-container h2,
+  .text-container p,
+  .text-container a {
+    margin-bottom: 20px; /* Espacement entre les éléments */
+    max-width: 600px; /* Largeur maximale des éléments */
+  }

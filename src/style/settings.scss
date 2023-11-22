@@ -9,6 +9,8 @@ $font-1: "font-1", sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: rgb(221, 215, 215);
+    text-decoration: none;
   }
 
   body {
@@ -20,3 +22,13 @@ $font-1: "font-1", sans-serif;
       list-style-type: none;
   }
 
+ .btn {
+  font-size: 17px;
+  background: transparent;
+  border: none;
+  padding: 1em 1.5em;
+  color: #ffedd3;
+  text-transform: uppercase;
+  position: relative;
+  transition: .5s ease;
+}

@@ -3,6 +3,11 @@
     align-items: center;
     justify-content: center ;
     height: 50vh;
+    text-align: center;
+  }
+
+  .calc a {
+    font-size: 1rem;
   }
 
   .calc input {
@@ -18,7 +23,6 @@
     padding: 0.4vw;
     margin: 10px;
     transition: .4s;
-    align-items: center;
   }
   
   .calc input:hover {
@@ -32,4 +36,19 @@
   .submit-area {
     text-align: center;
     width: 300px;
+  }
+
+  .submit-btn:hover {
+    cursor: pointer;
+  }
+
+
+
+  .Stat-Container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
   }
