@@ -5,17 +5,17 @@ const Navigation = () => {
   return (
     <div className="navigation">
       <ul>
-        <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+        <NavLink to="/" activeClassName="nav-active" className="nav">
           <li>
           <img className="logosteam"src="./Steamdb_icon.png" alt="logo steamdb" />
           </li>
         </NavLink>
-        <NavLink to="/calculator" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+        <NavLink to="/calculator" activeClassName="nav-active" className="nav">
           <li>
           Calculateur
           </li>
         </NavLink>
-        <NavLink to="/about" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+        <NavLink to="/about" activeClassName="nav-active" className="nav">
           <li>
           A propos
           </li>

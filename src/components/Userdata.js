@@ -59,7 +59,24 @@ const UserData = ({ steamID }) => {
           <h3>Nombre de kills contre un sniper qui vous vise : {formatStatValue(userData.playerstats.stats.find(stat => stat.name === 'total_kills_against_zoomed_sniper')?.value)}</h3>
         </div>
       ) : (
-        <p>Chargement des données...</p>
+        <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+	        <div class="wheel"></div>
+	        <div class="hamster">
+		        <div class="hamster__body">
+			        <div class="hamster__head">
+				        <div class="hamster__ear"></div>
+				        <div class="hamster__eye"></div>
+				        <div class="hamster__nose"></div>
+			    </div>
+			<div class="hamster__limb hamster__limb--fr"></div>
+			<div class="hamster__limb hamster__limb--fl"></div>
+			<div class="hamster__limb hamster__limb--br"></div>
+			<div class="hamster__limb hamster__limb--bl"></div>
+			<div class="hamster__tail"></div>
+		</div>
+	</div>
+	<div class="spoke"></div>
+</div>
       )}
     </div>
   );
