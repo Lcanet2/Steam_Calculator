@@ -28,7 +28,7 @@ const UserData = ({ steamID }) => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `https://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=730&key=`+process.env.REACT_APP_API_KEY+`&steamid=${steamID}`
+          process.env.REACT_APP_BACK_URL+`/getSteamData?steamid=${steamID}`
         );
         setUserData(response.data);
       } catch (error) {
